@@ -1,0 +1,145 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/linen-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 0px auto;
+ 	background: rgba(176, 209, 220, .5);
+	text-align: center;
+	border: 6px solid black;
+	border-radius: 25px;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+h1 {
+	font-family: garamond-premier-pro,serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.4em;
+    margin: 0px auto 10px auto;
+    color: black;
+}
+
+h2 {
+	font-family: garamond-premier-pro,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.4em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 10px auto;
+}
+
+p {
+	font-family: garamond-premier-pro,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+    line-height: 1.6;
+    color: #black;
+	padding: 10px 0;
+	border: solid black;
+	border-width: 2px 0;
+}
+    
+nav{
+	font-family: garamond-premier-pro,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	width: 500px;
+    margin: 0 auto;
+	text-align: .centermargin-top: 2em;
+	padding: 10px 0 0 0;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #eae3c4;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: #EAE3C4;
+}
